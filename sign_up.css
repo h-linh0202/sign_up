@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background:url(https://i.pinimg.com/originals/2c/84/5a/2c845a66b8ad2a8aafd288bdc16cd459.jpg);
+}
+.containert__logins{
+    /* display: none; */
+    background: linear-gradient(115deg,#56d8e4 10%,#b31df8 90%);
+    height: 600px;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    top: 30px;
+    left: 35.3%;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px;
+
+    
+}
+.containert__logins-text{
+    text-align: center;
+    padding-top: 0px;
+    font-family: cursive;
+}
+.containert__logins-form{
+    margin-top: 20px;
+    
+    
+}
+.containert__logins-icon{
+    margin-left: 35px;
+    right: 0px;
+}
+.containert__logins-input{
+    height: 30px;
+    width: 76%;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+    font-family:unset;
+    font-weight: 300;
+    padding: 0 10px;
+}
+.containert__logins-input-margin{
+    margin-bottom: 10px;
+}
+.containert__logins-form span{
+    margin-left: 5px;
+    font-weight: 300;
+    font-family: cursive;
+    
+}
+.containert__logins-inputs{
+margin-bottom: 0px;
+}
+.containert__logins-quenpass{
+    margin-left: 35px;
+    
+}
+.containert__logins-quenpass a{
+    color:#333;
+    padding-top:0;
+    text-decoration: none;
+    font-family: cursive;
+}
+.containert__logins-quenpass{
+    color: #333;
+}
+.containert__logins-login{
+    position: relative;
+    height: 45px;
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(115deg,#56d8e4da 10%,#a001ead5 90%);
+    cursor: pointer;
+    font-family: cursive;
+    
+    
+    
+}
+.containert__logins-login:hover{
+    background: linear-gradient(115deg,#a001ead5 10%,#56d8e4da 90%);
+   
+}
+.containert__logins-dangki{
+    margin-left: 26%;
+    margin-top: 30px;
+     
+}
+.containert__logins-dangki a{
+    text-decoration: none;
+    color:#46b0b9f8 ;
+}
+.containert__logins-input:focus{
+    border-color: #3498db;
+    border-bottom-width: 3px ;
+}
+.containert__logins a i{
+    margin-left: 90%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
